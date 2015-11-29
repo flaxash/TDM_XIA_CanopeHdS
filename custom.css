@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* custom class styles for the texts on the page */
+body {
+    color: #222222;
+}
+a, a:link, a:visited, a:active, a:hover {
+    color: #222222;
+    text-decoration: none;
+}
+.titrePage {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.videHaut {
+    height: 20px;
+}
+.titre-section {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #222222;
+    font-size: 140%;
+    text-shadow: 1px 2px 0 rgba(250,250,250,0.4);
+}
+img {
+    max-height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-width:medium;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+}
+.logo {
+    box-shadow: none;
+    border: none;
+}
+.logoDroite {
+    box-shadow: none;
+    border: none;
+    float : right;
+}
+.description {
+    margin-top: 5px; 
+    color: #333333;
+    padding-right: 10px;
+}
+.center {
+    width: auto;
+    text-align: center;
+}
+.fullwidth {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    min-height: 80px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border-top-style: solid;
+    border-top-width:thin;
+    border-top-color: rgba(240,240,240,0.3);
+}
+/* balises css (id) */
+/* couleurs choisies : 
+2C82C9 : bleu
+2CC990 : vert
+EEE657 : jaune clair
+FCB941 : jaune foncé
+FC6042 : orange
+*/
+
+#titre {
+    background-color: #FFFFFF;    
+}
+
+#guerre1418 {
+    background-color: #EEE657;  
+    z-index: 5;
+}
+#revolIndus {
+    background-color: #FCB941;
+    z-index: 4;
+    
+}
+#revolFranc {
+    background-color: #FC6042;
+    z-index: 3;  
+}
+#sceaux {
+    background-color: #2C82C9;
+    z-index: 2;
+}
+#chateaubriand {
+    background-color: #2CC990;
+    z-index: 1;
+}
